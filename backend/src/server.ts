@@ -1,4 +1,3 @@
-// src/server.ts
 import { app, sequelize } from './app';
 
 const PORT = process.env.PORT || 5000;

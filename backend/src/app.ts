@@ -1,4 +1,3 @@
-// src/app.ts
 import express from 'express';
 import taskRoutes from './routes/task.routes';
 import { sequelize } from './db';

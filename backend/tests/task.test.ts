@@ -1,13 +1,13 @@
 import request from 'supertest';
-import { app, sequelize } from '../src/app'; // ✅ Now only imports app, not server
+import { app, sequelize } from '../src/app';
 import { Task } from '../src/models/task.model';
 
 beforeAll(async () => {
-  await sequelize.sync({ force: true }); // Reset DB before all tests
+  await sequelize.sync({ force: true });
 });
 
 afterAll(async () => {
-  await sequelize.close(); // Close DB after tests
+  await sequelize.close();
 });
 
 describe('Task API', () => {
