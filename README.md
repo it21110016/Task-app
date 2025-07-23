@@ -10,12 +10,13 @@ A full-stack task management application built with:
 
 ## 📁 Project Structure
 
+```bash
 TaskApp/
 ├── backend/ # Express backend (TypeScript)
 ├── frontend/ # Vite + React frontend (TypeScript)
 ├── docker-compose.yml
 └── README.md
-
+```
 
 ## 🚀 Getting Started
 
