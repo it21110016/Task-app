@@ -19,6 +19,14 @@ TaskApp/
 
 ## 🚀 Getting Started
 
+Make sure Docker is installed on your system.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/it21110016/Task-app.git
+cd Task-app
+```
 
 ## ⚙️ Running with Docker
 
